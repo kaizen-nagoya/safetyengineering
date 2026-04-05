@@ -1,0 +1,156 @@
+---
+title: 安全工学シンポジウムの発表を２週間で作る方法。安全(28)
+tags: 安全工学シンポジウム 自動運転 安全分析 小川メソッド
+author: kaizen_nagoya
+slide: false
+---
+安全工学シンポジウムの発表を２週間で作る方法を記録する。
+
+<この項は書きかけです。順次追記します。>
+
+なお、この資料は作成の途中の誤字脱字も記録するものです。
+最終版として提出したもの以外へのご指摘への返答はご辞退させていただきます。
+
+# 第二版
+## 目的
+安全分析の体系化を測る。
+継続的に安全工学シンポジウムで発表することにより、社会的評価を受ける。
+
+## 目標
+二度見直した資料で発表する。
+事前に何人かに見てもらう。
+質問または意見を行事の最中または事後にもらう。
+他の発表者（別枠でも）との関係を３つ以上の発表で探す。
+
+## 期待する成果
+TOPPERSコンテストへの提案の切り口を見つける。
+ACM投稿の趣旨を方向付けする。
+
+## 既存資料
+
+自動車安全資料を仮訳してみた。分析はこれから。
+https://qiita.com/kaizen_nagoya/items/c28c707ef226e65b780e
+
+"SAFETY FIRST FOR AUTOMATED DRIVING" に追加するとよいかもしれないこと
+https://qiita.com/kaizen_nagoya/items/0bab4a2c184c8fbfb0ef
+
+「国土交通省自動車局 自動運転車の安全技術ガイドライン」を超えてhttps://qiita.com/kaizen_nagoya/items/8d219f57dfd71b526c96
+
+「ソフトウェアエンジニアが「トヨタ」の伝統を革新して、ソフトとハードの融合した「モノづくり」を推進する時代へ」Qiita Zine記事を読み解く
+https://qiita.com/kaizen_nagoya/items/20a3144e0ccd4d3655b5
+
+## 道路安全
+道路安全　自己適応システムの安全分析
+https://qiita.com/kaizen_nagoya/items/449ccda6821efeff574f
+
+### 仮設類
+道路を安全設計すると、非安全部分との境界の危険性が高まるかもしれない。
+安全設計の不整合により、これまでにない危険性が確認できるかもしれない。
+
+
+天敵による捕食行動が昆虫の繁殖力を増加させる
+https://www.okayama-u.ac.jp/up_load_files/press_r3/press20210608.pdf
+
+ある行為が、線形に有効になるのではなく、反作用をもたらし、逆に有効性がなくなる可能性を示している。
+
+# 論文
+安全工学シンポジウムへの投稿を１週間で作成する方法
+https://qiita.com/kaizen_nagoya/items/181f2ced6d418de9c7a6
+
+で作った資料は、いろいろ間違いがあった。
+ちょっとはずかしい間違いだけ直した版
+
+![page1.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/ea2c3e64-ff14-9293-90f3-15bae1d45b33.png)
+
+![page2.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/6d16e96d-7a5c-ccce-181c-2da2b41e312e.png)
+
+# 発表資料 
+発表資料ができる日程のこれまでの状況を記録
+
+|日程|確率%|事情|
+|:--|:--|:--|
+|一月前|10|４社以上の連名|
+|２週間前|10|連名者の承認手続き上|
+|１週間前|10|連名者の承認手続き上|
+|３日前|10|連名者の見直し上|
+|２日前|15|連名者の見直し上|
+|１日前|20|複数案件のうちの一部|
+|当日|25|複数案件のうち連名でないもの|
+
+今回は、２週間前に第一版ができている。
+理由は、作業診断の対象にしている。
+関係者に閲覧してもらうため。
+
+## 第一版
+
+基本は、原稿を１０分割して切りはり。
+一部、箇条書き。
+最短で約１時間でできる。
+
+作業中に間違い、抜け漏れなどに気がついて、
+調査を始めると、いくら時間があっても終わらないかもしれない。
+
+そこで、調査は、次の版までにすることにして、時間で切ってReviewに回す。
+
+![スライド01.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/41928766-d672-1163-6b5f-8a38e045a7f5.jpeg)
+![スライド02.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/4e73b834-43aa-4a87-2b02-2f58b575ed9a.jpeg)
+![スライド03.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/5ed34aad-971a-98e2-c49b-19488568fa07.jpeg)
+
+![スライド04.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/6a1af70f-e4a7-d6a8-3718-4004b1dc45fe.jpeg)
+
+![スライド05.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/4e4e94af-d7fd-e895-c0d5-e838705ba3e2.jpeg)
+
+マルチコアの壁
+https://qiita.com/kaizen_nagoya/items/f38e47574905c80c0706
+
+![スライド06.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/0dccef7d-6d1c-3625-31fb-849b06ed8dc8.jpeg)
+
+オープンソースと同様に参考文献の参考文献も検討する。（公開している文献だけ）
+
+参考文献駆動執筆(references driven writing)デンソークリエイト編
+https://qiita.com/kaizen_nagoya/items/b27b3f58b8bf265a5cd1
+
+![スライド07.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/628909f2-4095-669f-1980-ca6d1adecfd3.jpeg)
+
+![スライド08.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/2317fcf9-bc77-db21-143d-89fa7900b0b8.jpeg)
+
+![スライド09.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/dea023b5-5922-e234-2f50-eae1eb1008be.jpeg)
+
+![スライド10.jpg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/51423/7c285e5a-dcb3-30ad-2f3b-613b20582d27.jpeg)
+
+＜この記事は個人の過去の経験に基づく個人の感想です。現在所属する組織、業務とは関係がありません。＞
+
+# 最終発表原稿
+オープンソース計算機模擬試験による安全関連系の設計と分析
+https://qiita.com/kaizen_nagoya/items/a317bf6570cb3bdf185b
+
+# Reference
+Ethernet 記事一覧　Ethernet(0)
+https://qiita.com/kaizen_nagoya/items/88d35e99f74aefc98794
+
+Wireshark 一覧 wireshark(0)、Ethernet(48) 
+https://qiita.com/kaizen_nagoya/items/fbed841f61875c4731d0
+
+線網（Wi-Fi）空中線(antenna)(0) 記事一覧(118/300目標)
+https://qiita.com/kaizen_nagoya/items/5e5464ac2b24bd4cd001
+
+一覧の一覧( The directory of directories of mine.) Qiita(100)
+https://qiita.com/kaizen_nagoya/items/7eb0e006543886138f39
+
+プログラマが知っていると良い「公序良俗」
+https://qiita.com/kaizen_nagoya/items/9fe7c0dfac2fbd77a945
+
+小川清最終講義、小川清最終講義（再）計画, Ethernet(100) 英語(100) 安全(100)
+https://qiita.com/kaizen_nagoya/items/e2df642e3951e35e6a53
+
+＜この記事は個人の過去の経験に基づく個人の感想です。現在所属する組織、業務とは関係がありません。＞
+This article is an individual impression based on the individual's experience. It has nothing to do with the organization or business to which I currently belong.
+### 文書履歴
+ver. 0.01 初稿 20210614
+ver. 0.02 ２稿 20210628
+ver. 0.03 最終原稿 20210704
+ver. 0.04 ありがとう追記 20230617
+### 最後までおよみいただきありがとうございました。
+いいね　💚、フォローをお願いします。
+####  Thank you very much for reading to the last sentence.
+Please press the like icon 💚　and follow me for your happy life.
