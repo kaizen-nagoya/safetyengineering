@@ -317,3 +317,245 @@ I can:
 
 Just tell me:
 👉 target venue (e.g., 安全工学シンポジウム, IEEE, arXiv)
+
+
+Q2 Generate figures ready to paste
+A2 
+Great—adding clear figures will significantly strengthen your paper. Below are **publication-ready figures** (clean ASCII + Mermaid formats). You can paste:
+
+* **ASCII** → directly into Markdown (GitHub-friendly)
+* **Mermaid** → renders automatically on GitHub (recommended)
+
+---
+
+# ■ Figure 1: Overall System Architecture
+
+## ✔ Mermaid (recommended)
+
+```mermaid
+flowchart LR
+    A[User Requirements] --> B[LLM Agent]
+    B -->|MCP API| C[Formal Tools]
+
+    C --> C1[Event-B<br/>Invariant Proof]
+    C --> C2[CSP<br/>Concurrency Check]
+    C --> C3[Uppaal<br/>Timing Verification]
+
+    C --> D[Verification Results]
+    D --> B
+    B --> E[Refined Model]
+
+    E --> F[GitHub Repository]
+    F --> G[CI/CD Pipeline]
+    G --> C
+```
+
+---
+
+## ✔ ASCII (fallback)
+
+```
++-------------------+
+| User Requirements |
++-------------------+
+          |
+          v
++-------------------+
+|     LLM Agent     |
++-------------------+
+          |
+      (MCP API)
+          |
+          v
++-------------------------------+
+|        Formal Tools           |
+|-------------------------------|
+| Event-B   CSP    Uppaal       |
+| (logic)  (proc)  (timing)     |
++-------------------------------+
+          |
+          v
++-----------------------+
+| Verification Results  |
++-----------------------+
+          |
+          v
++-------------------+
+|  Refined Model    |
++-------------------+
+          |
+          v
++-------------------+
+|   GitHub + CI/CD  |
++-------------------+
+```
+
+---
+
+# ■ Figure 2: Closed-loop Verification (Key Contribution)
+
+## ✔ Mermaid
+
+```mermaid
+flowchart LR
+    A[Natural Language Requirement]
+    --> B[LLM Model Generation]
+
+    B --> C[Formal Model]
+    C --> D[Model Checker]
+
+    D -->|OK| E[Verified System]
+    D -->|Counterexample| F[Error Trace]
+
+    F --> G[LLM Refinement]
+    G --> B
+```
+
+---
+
+## ✔ ASCII
+
+```
+[Requirement]
+      |
+      v
+[LLM Generation]
+      |
+      v
+[Formal Model]
+      |
+      v
+[Model Checker]
+   |        |
+  OK    Counterexample
+   |        |
+   v        v
+[Verified] [Error Trace]
+               |
+               v
+        [LLM Refinement]
+               |
+               +----> back to generation
+```
+
+---
+
+# ■ Figure 3: MCP-Based Tool Invocation
+
+## ✔ Mermaid
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant LLM
+    participant MCP
+    participant Tool as Formal Tool
+
+    User->>LLM: Requirement
+    LLM->>MCP: Request verification
+    MCP->>Tool: Execute check
+    Tool-->>MCP: Result
+    MCP-->>LLM: Structured response
+    LLM-->>User: Explanation + refinement
+```
+
+---
+
+## ✔ ASCII
+
+```
+User → LLM → MCP → Formal Tool
+                 ↓
+              Result
+                 ↓
+User ← LLM ← MCP
+```
+
+---
+
+# ■ Figure 4: DevOps × Safety Integration (Important for reviewers)
+
+## ✔ Mermaid
+
+```mermaid
+flowchart TD
+    A[Code Commit] --> B[Pull Request]
+    B --> C[CI Pipeline]
+
+    C --> D[Build & Test]
+    C --> E[Safety Check]
+
+    E --> E1[Invariant Proof]
+    E --> E2[Model Checking]
+
+    E --> F{Pass?}
+    F -->|Yes| G[Merge]
+    F -->|No| H[Fix Required]
+```
+
+---
+
+## ✔ ASCII
+
+```
+Commit → PR → CI Pipeline
+              |
+      +-------+--------+
+      |                |
+   Test           Safety Check
+                     |
+         +-----------+----------+
+         |                      |
+   Invariant Proof     Model Checking
+         |
+       Pass?
+      /    \
+    Yes    No
+    |       |
+  Merge   Fix
+```
+
+---
+
+# ■ Figure 5: Hazard–Mitigation Mapping (Simple but effective)
+
+## ✔ Mermaid
+
+```mermaid
+flowchart LR
+    H1[Hazard: Incorrect Actuation]
+    C1[Cause: LLM Error]
+    M1[Mitigation: Formal Verification]
+
+    H2[Hazard: Timing Violation]
+    C2[Cause: Async Behavior]
+    M2[Mitigation: Uppaal Check]
+
+    H1 --> C1 --> M1
+    H2 --> C2 --> M2
+```
+
+---
+
+# ■ How to Use (Quick Tips)
+
+### Best practice for your paper:
+
+* Put **Figure 1** in Architecture section
+* Put **Figure 2** in Method section (**most important**)
+* Put **Figure 3** in MCP section
+* Put **Figure 4** in Implementation / DevOps section
+* Put **Figure 5** in Safety analysis section
+
+---
+
+# ■ If you want next level
+
+I can also generate:
+
+* **publication-quality SVG diagrams**
+* **PowerPoint / PDF figures**
+* **LaTeX TikZ versions (for IEEE papers)**
+* **Uppaal / Event-B actual model diagrams**
+
+Just tell me your target format 👍
