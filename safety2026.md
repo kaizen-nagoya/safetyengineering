@@ -2,7 +2,9 @@ Models, processes and services designed by source codes of safety
 system for mobility with LLM and MCP.
 Dr. OGAWA Kiyoshi, Aetc. inc.
 April 9, 2026
+
 Abstract
+
 This paper examines the relationship between the use
 of generative AI for safety design in mobile devices
 and existing technologies. During this process, we will
@@ -15,6 +17,7 @@ and for formal methods, from people at the National In-
 stitute of Advanced Industrial Science and Technology
 and Takeshi Hori of the Hokkaido Prefectural Industrial
 Research Institute.
+
 1 background
 1.1 self introduction
 In the field of economics, the value of the agents in a
