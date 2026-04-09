@@ -30,6 +30,7 @@ and for my graduation research, I performed the Pade
 approximation on simultaneous diﬀerential equations.[3]
 I ported VZ editor, an editor for MS-DOS, to the NEC
 N5200 oﬃce personal computer.[4]
+
 1.2 AUTOSAR Open Source Project
 Before AUTOSAR’s specifications were oﬃcially re-
 leased, I participated in a project to create open-source
@@ -54,6 +55,7 @@ proval of the BMW representative who chaired SC32
 and the Bosch sector representative, I gave a presenta-
 tion on the importance of HAZOP based on the AU-
 TOSAR open source and JAXA/IPA WOCS initiatives.
+
 1.3 Embedded Systems Core Engineer
 Training Project
 Nagoya Institute of Technology and a parts manufac-
@@ -66,10 +68,9 @@ Nagoya Institute of Technology.[?] I conducted demon-
 stration experiments at Gifu University and taught an
 intensive summer course as a part-time graduate lecturer
 for 10 years.
-1.4 IPA/JAXA critical software sympo-
-sium
-As part of a business project for the Ministry of Econ-
-omy, Trade and Industry, I provided guidance on the
+
+1.4 IPA/JAXA critical software symposium
+As part of a business project for the Ministry of Economy, Trade and Industry, I provided guidance on the
 implementation of ISO 9000 quality management sys-
 tems. In relation to the expansion of ISO 9000 into the
 software field, at the request of NTT and Mitsubishi
@@ -84,6 +85,7 @@ sented at IEEE. Due to our shared experience as fellow
 students, he appointed me as the program chairperson
 when JAXA co-hosted the Critical Software Workshop
 with IPA.
+
 1.5 Safety Engineering Symposium
 I was encouraged to present my findings at the Safety
 Engineering Symposium by a former Toshiba employee
@@ -93,25 +95,30 @@ Between 2006 and 2020, I presented over 20 papers at
 safety engineering symposia .[8] [9] [10] [11] [12] [13] [14]
 [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26][27]
 [28]
+
 2 Model
 In this section, model means concept models, design
 models and operation models on mechanical, electrical,
 material and software systems.
+
 2.1 social model
 In social models, the opposite is often true depending on
 one’s perspective. If you don’t describe the viewpoints
 from three or more diﬀerent perspectives, the discussion
 can become muddled.
+
 2.2 moter control
 The motor design tool JMAGj allows the use of LLM and
 MCP through integration with MATLAB and Simulink.
 To use LLM with JMAG, it is advisable to add MCP to
 JMAG.
+
 3 Process
 in this section process means human process and com-
 puter process. Automation is the process of replacing
 the work of a genius with a computer. Most tasks that
 anyone can do have already been replaced by computers.
+
 3.1 wataer fall
 In the era when time was stamped on paper cards and
 various programs were loaded sequentially into a main-
@@ -133,6 +140,7 @@ or oneself deems worth investing in can yield reason-
 able results. Estimates were based on the assumption
 of following the waterfall model, V-model process, etc.,
 provided by the computer manufacturer.
+
 3.2 agile
 Since the advent of 32-bit CPU PCs, design, build, and
 run have become tasks that can be completed by a single
@@ -141,6 +149,7 @@ are performed can be left to the individual’s abilities,
 and it has become known that designing in source code
 is particularly eﬃcient. Agile is based on almost the
 same ideas as those insights gained at that time.
+
 3.3 DEVOPS
 LLM has become useful not only for designing and op-
 erating systems on the cloud by the same person, but
@@ -148,6 +157,7 @@ also for automating collaborative work among multi-
 ple people―something that was diﬃcult to achieve with
 traditional PCs―from environment setup using Git and
 Docker to test operation.
+
 4 services
 A service refers to anything where the output can be de-
 fined for each input, such as the processing of materials,
@@ -155,6 +165,7 @@ the movement of people or materials, or the processing
 of information, rather than specifying the exact method
 of processing. Another term for this is ”processing in a
 dark box.”
+
 4.1 mobility
 Mobile machinery includes trains, automobiles, ships,
 aircraft, and satellites. The structure of mobile ma-
@@ -162,6 +173,7 @@ chinery involves comprehensively designing, prototyp-
 ing, and evaluating physical and chemical phenomena,
 including the structure, function, performance, materi-
 als, fuel, heat, and air resistance of the engine or motor.
+
 4.2 safety system
 In situations where humans are outside the hazard
 source, such as with manufacturing machinery, the prin-
@@ -170,9 +182,11 @@ where humans are inside the hazard source, the principle
 of isolation alone is insuﬃcient. It is crucial to design
 for transitions to relatively safer states in all possible
 scenarios.
+
 5 tools
 Various tools, including CAD, CAM, and CAE, are used
 for design, prototyping, and evaluation.
+
 5.1 coding standard
 5.1.1 misra C
 MISRA C will be restructured to adhere to the spirit
@@ -197,40 +211,47 @@ we can fill in previously untouched areas.
 By applying the JMARG guide, we can automatically
 generate model inspection tools and create more detailed
 guide candidates.
+
 5.2 AI
 5.2.1 deep learning
 We held a study session on deep learning. A steel com-
 pany used a tool that processes multiple models in par-
 allel and compares the results to improve the control of
 its rolling process.
+
 5.2.2 quantum compuiting
 We are considering using LLM to conduct a preliminary
 investigation comparing quantum computing algorithms
 with conventional optimization techniques in specific do-
 mains to determine which approach is more suitable for
 which task.
+
 5.2.3 LLM and MCP
 By extending MCP (Model context protocol) to other
 CAD, CAM, and CAE software, the inter-tool integra-
 tion between tools with LLM (Large language model)
 capabilities, such as MATLAB, can be dramatically im-
 proved.
+
 5.3 UML
 In safety-related systems, safety analysis is performed
 using state transition diagrams, time series diagrams,
 time-series diagrams, and methods such as FTA, FMEA,
 and HAZOP.
+
 5.3.1 state machine
 There are reports of significantly improved quality com-
 pared to conventional methods by automatically gener-
 ating Promela code from a state transition diagram to
 control a color PS printer, verifying it with SPIN, and
 then generating C source code.
+
 5.3.2 sequence diagram
 I’m exploring a method that automatically generates
 and selects candidate state transitions from a sequence
 using LLM, which is the reverse of generating sequences
 from state transitions like uppaal.
+
 5.3.3 timing diagram
 In a project funded by the Ministry of Economy, Trade
 and Industry, we attempted to automatically gener-
@@ -238,6 +259,7 @@ ate EtherCAT-compatible control programs from timing
 charts. A system could be devised where a mechanical
 designer writes control instructions, and the source code
 is generated.
+
 6 issue
 6.1 Tool Integration
 When integrating multiple tools, data and program
@@ -245,16 +267,19 @@ transfers may fail due to version diﬀerences. Even with-
 out specific errors, the methods for generating and ver-
 ifying ways to detect security vulnerabilities and poten-
 tial bugs become more sophisticated.
+
 6.2 intellectual property
 As patents and copyrighted works increase exponentially
 through automated generation, the eﬀort required to
 verify who owns the automatically generated intellectual
 property will become enormous.
+
 6.3 Responsibility boundaries
 Determining the boundaries of responsibility in the
 event of an accident, and whether insurance for au-
 tomatically generated data is feasible, are social chal-
 lenges, just like those for autonomous driving.
+
 7 future work
 7.1 formal method
 7.1.1 Event B
@@ -264,32 +289,36 @@ be described using Event-B. The stepwise refinement of
 Event-B was a diﬃcult task, requiring only highly skilled
 programmers. He wanted to improve eﬃciency by hav-
 ing a generative AI generate several candidates.
+
 7.1.2 CSP
 The CSP system developed by the recently deceased
 Hoare was so complex that only exceptionally skilled
 programmers could fully describe it. I want to try to
-overcome these traditional diﬃculties with generative
-AI.
+overcome these traditional diﬃculties with generative AI.
+
 7.1.3 coq
 Microsoft has extended Coq to re-prove the four-color
 problem. I would like to explore how LLM can be used
 for broader applications of Coq.
+
 7.2 programming language
 The goal is to unify the source code of the C and C++
 compilers and generate the C and C++ specifications
 from the source code. We are also considering extensions
-that would allow the use of templates and namespaces
-in C.
+that would allow the use of templates and namespaces in C.
+
 7.3 operating system
 The source code for POSIX PSE51 and OSEK/VDX
 OS will be unified, allowing specifications to be gener-
 ated from the source code. Ideally, the Priority CEILong
 protocol will be introduced to Linux, allowing the selec-
 tion of a mode that does not cause deadlocks.
+
 8 conclusion
 The extent to which we can entrust generative AI with
 harmonizing various perspectives, and what needs to be
 checked, is constantly changing.
+
 References
 [1] Graduation Thesis: Equivalent exchange research,
 Kiyoshi Ogawa, 1982, Hose University.
