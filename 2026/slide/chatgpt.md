@@ -430,7 +430,11 @@ Conclusion
 Integrated framework
 Scalable safety engineering
 Future: automation
-<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/ec3232a1-f4b6-477d-b222-c74df11389b2" />
 
+Reference
+Proposal of safety-oriented analysis approach based on automotive products case study on safetyoriented analysis of electric parking brake system, Fumiaki Kono. Hidekazu Nishimura, Keio Univ. 2018
+Terms and Description and SESJ Kiyoshi Ogawa Papers and other references. https://github.com/kaizen-nagoya/References/ blob/main/2026saf.md
+Safety Manifest Examples https://github.com/kaizen-nagoya/safetyengineering/blob/main/SafetyManifest/README.md
+<img width="2229" height="127" alt="image" src="https://github.com/user-attachments/assets/d58f0915-1036-4585-906f-b68e091e2557" />
 
 
