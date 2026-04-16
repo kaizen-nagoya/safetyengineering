@@ -328,39 +328,109 @@ I can upgrade this into:
 
 Just tell me 👍
 
+# ver. 0.1
 A Safety Engineering Framework
 LLM + MCP + Formal Methods
 Author: Kiyoshi Ogawa
+
 Problem
 • Increasing system complexity
 • Manual safety verification
 • Limited scalability
+
 Proposed Approach
 • LLM-based model generation
 • MCP tool integration
 • Formal verification loop
+
 Architecture
 LLM → MCP → JMAG / Simulink → Formal Methods
+
 Formal Methods
 • Event-B: invariants
 • Uppaal: timing verification
 • Safety guarantees
+
 Example Safety Property
 door_open ⇒ not moving
+
 JMAG + Simulink
 • JMAG: motor physics
 • Simulink: control
 • Co-simulation loop
+
 Workflow
 Generate → Simulate → Verify → Refine
+
 Results
 • Improved safety
 • Iterative refinement
 • Verified models
+
 Conclusion
 • Integrated framework
 • Scalable safety engineering
 • Future: automation
-<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/ce92c0a4-ba02-4562-8808-e330710d8d99" />
+
+# ver 0.12 
+A Safety Engineering Framework
+LLM + MCP + Formal Methods
+Author: Dr.Kiyoshi Ogawa
+20260416 generate
+20260426 add 1 page and add over 20 items/correct layout
+
+BackGround
+Port PC emulator to PC-9801
+Pade approximation
+Port Vz Editor to N5200
+AUTOSAR Open Source Project
+Embedded core Engineer Training Project
+JAXA/IPA workshop on critical software systems
+Safety Engineering Symposium
+
+Problem
+Increasing system complexity
+Manual safety verification
+Limited scalability
+
+Proposed Approach
+• LLM-based model generation
+• MCP tool integration
+• Formal verification loop
+Design guide and coding rules
+
+Architecture
+LLM → MCP → JMAG / Simulink → Formal Methods
+
+Formal Methods
+Event-B: invariants
+Uppaal: timing verification
+CSP
+coq
+Safety guarantees
+
+Example Safety Property
+
+JMAG + Simulink
+JMAG: motor physics
+Simulink: control
+Co-simulation loop
+HDL generation
+
+Workflow
+Design → Generate → Simulate → Verify/Validate → Refine
+
+Results
+Improved safety
+Iterative refinement
+Verified models
+Engineer Training with LLM/MCP
+
+Conclusion
+Integrated framework
+Scalable safety engineering
+Future: automation
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/ec3232a1-f4b6-477d-b222-c74df11389b2" />
+
 
 
