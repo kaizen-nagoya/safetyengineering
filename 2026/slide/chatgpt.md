@@ -328,3 +328,39 @@ I can upgrade this into:
 
 Just tell me 👍
 
+A Safety Engineering Framework
+LLM + MCP + Formal Methods
+Author: Kiyoshi Ogawa
+Problem
+• Increasing system complexity
+• Manual safety verification
+• Limited scalability
+Proposed Approach
+• LLM-based model generation
+• MCP tool integration
+• Formal verification loop
+Architecture
+LLM → MCP → JMAG / Simulink → Formal Methods
+Formal Methods
+• Event-B: invariants
+• Uppaal: timing verification
+• Safety guarantees
+Example Safety Property
+door_open ⇒ not moving
+JMAG + Simulink
+• JMAG: motor physics
+• Simulink: control
+• Co-simulation loop
+Workflow
+Generate → Simulate → Verify → Refine
+Results
+• Improved safety
+• Iterative refinement
+• Verified models
+Conclusion
+• Integrated framework
+• Scalable safety engineering
+• Future: automation
+<img width="1200" height="900" alt="image" src="https://github.com/user-attachments/assets/ce92c0a4-ba02-4562-8808-e330710d8d99" />
+
+
