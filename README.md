@@ -5,4 +5,5 @@ safety engineering
 https://github.com/kaizen-nagoya/Safety_Analysis_self_driving_car
 
 # Safety engineering symposium 2026
-https://github.com/kaizen-nagoya/safetyengineering/blob/main/2026/README.md
+https://github.com/kaizen-nagoya/safetyengineering/tree/main/2026
+
